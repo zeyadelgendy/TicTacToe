@@ -1,0 +1,54 @@
+body{
+        background-color: black;
+        color: white;
+}
+
+.container{
+        width: 930px;
+}
+
+.title{
+        text-align: center;
+        display: block;
+        margin-top: 30px;
+}
+
+.game{
+        margin-top: 50px;
+}
+
+.box{
+        float: left;
+	width: 100px;
+	height: 100px;
+	border: 1px solid white;
+	transition: all .25s ease-in-out;
+	font-size: 85px;
+	text-align: center;
+	line-height: 100px; 
+	cursor: pointer;
+}
+
+.box:hover{
+        background: #9999CC !important;
+	color: white !important;
+}
+
+.winnerBox{
+	background: #9999CC;
+}
+
+.back{
+        width: 140px;
+        margin-top: 20px;
+        font-family: 'Games', sans-serif;
+}
+
+.row{
+        text-align: center;
+        align-items: center;
+}
+
+.step{
+        font-family:'Games', sans-serif;
+}
